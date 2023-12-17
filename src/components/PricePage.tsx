@@ -1,7 +1,7 @@
-import { useQuery } from "@tanstack/react-query";
-import HeroSection from "./HeroSection";
 import { getTokenSupply } from "@/cosmos";
-import { stat } from "fs";
+import { useQuery } from "@tanstack/react-query";
+import BasicInfoDisplay from "./BasicInfoDisplay";
+import HeroSection from "./HeroSection";
 import MarketCapDisplay from "./MarketCapDisplay";
 
 const PricePage = () => {
@@ -43,6 +43,9 @@ const PricePage = () => {
           <MarketCapDisplay price={priceData.price ?? 0} supply={tokenSupply} />
         </div>
       )}
+      <div className="pb-6">
+      <BasicInfoDisplay />
+      </div>
     </div>
   );
 };

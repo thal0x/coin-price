@@ -62,3 +62,16 @@ export const SWAP_LINK =
  * Corresponds to a Tailwind color, see https://tailwindcss.com/docs/customizing-colors#color-palette-reference
  */
 export const THEME_COLOR = "teal";
+
+/**
+ * Link to telegram group.
+ *
+ */
+export const TELEGRAM_GROUP_LINK = "https://t.co/UEFApdNX1B";
+
+
+/**
+ * Easiest place to buy the token.
+ *
+ */
+export const TRANSACTION_INFO_LINK = "https://ibc.fun";
